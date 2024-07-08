@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal ar ma er Pitha ghor</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+            <nav>
+                <ul>
+                    <li><a href="video.html">Video</a></li>
+                    <li>
+                        <a href="form.html">Form</a>
+                        <ul class="dropdown">
+                            <li><a href="video.html">Video</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="table.html">Table</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="table.html">Table</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+    <main>
+        <section>
+            <h1>Please fill up the form</h1>
+            <form>
+                <label for="name"> Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email"> Your Email:
+                    <input id="email" placeholder="Enter Your Email">
+                </label>
+                <label for="phone"> Your phone:
+                    <input id="text" placeholder="Enter your Number">
+                </label>
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="vapa">
+                        <input type="radio" name="vapa" id="vapa">vapa
+                    </label>
+                    <label for="patisapta">
+                        <input type="radio" name="vapa" id="patisapta">patisapta
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="vapa" id="puri">puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one vorta</legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha">sorisha
+                    </label>
+                    <label for="alu">
+                        <input type="checkbox" name="vorta" id="alu">alu
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki">sutki
+                    </label>
+                </fieldset>
+                <fieldset>
+                   <legend>Special Instruction</legend>
+                   <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
